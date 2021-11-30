@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="function.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2> Area of a Circle</h2>
+    <label for="toAr">Enter Radius:</label><br>
+    <input type="number" id="toAr"><br>
+
+    <button onclick="toArea(document.getElementById('toAr').value)">Find Area</button>
+    <p id="result"> </p>
+
+
+
+    <h2> Compare Two Numbers</h2>
+    <label for="num1">Enter First Number:</label><br>
+    <input type="text" id="num1"><br>
+    <label for="num2">Enter Second Number:</label><br>
+    <input type="text" id="num2"><br>
+
+    <button onclick="toComp(document.getElementById('num1').value, 
+    document.getElementById('num2').value)" >Compare Two</button>
+    <p id="result1"> </p>
+
+
+    <h2> Find Odd or Even</h2>
+    <label for="toOd">Enter any number:</label><br>
+    <input type="number" id="toOd" name="toOd"><br>
+
+    <button onclick="toOddEven(document.getElementById('toOd').value)">Find Odd or Even</button>
+    <p id="result2"> </p>
+
+    
+    <h2> Find Palindrome</h2>
+    <label for="toPa">Enter any word:</label><br>
+    <input type="text" id="toPa" name="toPa"><br>
+
+    <button onclick="palindrome1(document.getElementById('toPa').value)">Find Palindrome</button><br><br>
+    <p id="result2"> </p>
+    
+
+</body>
+</html>
